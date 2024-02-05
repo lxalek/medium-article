@@ -1,0 +1,109 @@
+body {
+  color: #494949;
+  background-color: #E1F0DA;
+  font-family: "Dreaming";
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: ‘Lora’, serif;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Future Z";
+  src: url("Dafont/Future Z.otf");
+}
+@font-face {
+  font-family: "Dreaming";
+  src: url("Dafont/Dreaming.otf");
+}
+
+h1, h2 {
+  font-family: ‘Montserrat’, sans-serif;
+  font-weight: bold;
+  font-family: "Dreaming";
+}
+h2 {
+  color: #A0A0A0;
+  font-weight: normal;
+  font-family: "Dreaming";
+}
+a {
+  text-decoration: none;
+  color: #4352A1;
+  font-family: "Dreaming";
+}
+
+a:hover {
+  background: linear-gradient(#e66465, #9198e5);
+}
+/* Custom design */
+.banner {
+  background-image: url("https://assets-prd.ignimgs.com/2023/04/14/10-skynet-1681492913257.jpg");
+  text-align: center;
+  font-size: 100px;
+  font-family: "Future Z";
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+.banner h1 {
+  font-size: 38px;
+}
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+.link-medium {
+  background: linear-gradient(#e66465, #9198e5);  background: linear-gradient(#e66465, #9198e5);
+  color: #636363;
+  border-radius: 5px;
+  font-family: "Dreaming";
+  padding: 10px;
+  line-height: 3;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+}
+.link-medium:hover {
+  background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));}
+}
+/* Media queries */
+@media(max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 450px;
+  }
+}
+@media(max-width: 576px) {
+  .container {
+    width: 350px;
+  }
+  .banner {
+    padding: 50px 0;
+  }
+  .banner h1 {
+    font-size: 30px;
+  }
+  .banner p {
+    font-size: 20px;
+  }
+}
